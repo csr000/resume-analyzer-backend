@@ -9,7 +9,7 @@ from starlette.responses import JSONResponse
 # TODO update docstring of parse
 # TODO update docstring of compare
 
-app = FastAPI(debug=True)
+app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -118,5 +118,5 @@ async def compare(job_description: str, files: List[UploadFile]):
     return json.loads(post_to_model(template))
 
 
-if __name__ == "__main__":
-    uvicorn.run("main:app", port=8000, reload=True)
+# if __name__ == "__main__":
+#     uvicorn.run("main:app", port=8000, reload=True)
