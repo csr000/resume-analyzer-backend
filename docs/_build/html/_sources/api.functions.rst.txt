@@ -1,0 +1,21 @@
+api.functions package
+=====================
+
+Submodules
+----------
+
+api.functions.rank module
+-------------------------
+
+.. automodule:: api.functions.rank
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: api.functions
+   :members:
+   :undoc-members:
+   :show-inheritance:
